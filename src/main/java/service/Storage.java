@@ -10,8 +10,8 @@ import java.util.List;
 
 public class Storage {
 
-    private String filename;
-    private IParser parser;
+    private final String filename;
+    private final IParser parser;
 
     public Storage(String filename, IParser parser) {
         this.filename = filename;

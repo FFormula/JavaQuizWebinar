@@ -4,8 +4,8 @@ import java.io.*;
 
 public class DialogStream implements IDialog {
 
-    private BufferedReader reader;
-    private BufferedWriter writer;
+    private final BufferedReader reader;
+    private final BufferedWriter writer;
 
     public DialogStream(InputStream in, OutputStream out) {
         reader = new BufferedReader(new InputStreamReader(in));

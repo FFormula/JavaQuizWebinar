@@ -1,8 +1,8 @@
 package model;
 
 public class Quiz {
-    private String question;
-    private String answer;
+    private final String question;
+    private final String answer;
 
     public Quiz(String question, String answer) {
         this.question = question;

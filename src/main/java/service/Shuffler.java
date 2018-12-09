@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Shuffler {
 
-    private Storage storage;
+    private final Storage storage;
 
     public Shuffler(Storage storage) {
         this.storage = storage;

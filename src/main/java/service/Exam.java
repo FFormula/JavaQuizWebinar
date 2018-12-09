@@ -4,9 +4,8 @@ import model.Quiz;
 
 public class Exam {
 
-    private IDialog dialog;
-    private Shuffler shuffler;
-    private int count;
+    private final IDialog dialog;
+    private final Shuffler shuffler;
 
     public Exam(IDialog dialog, Shuffler shuffler) {
         this.dialog = dialog;

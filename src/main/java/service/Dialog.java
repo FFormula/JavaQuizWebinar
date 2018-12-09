@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Dialog implements IDialog {
 
-    private Scanner scanner;
+    private final Scanner scanner;
 
     public Dialog() {
         scanner = new Scanner(System.in);
